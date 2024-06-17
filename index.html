@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #1C1C1C;
+            color: #E7E7E7;
+        }
+        .profile {
+            text-align: center;
+            background: #1C1C1C;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+            width: 90%;
+            max-width: 500px;
+        }
+        .profilepic {
+            border-radius: 50%;
+            width: 40%;
+        }
+        .profile h1 {
+            margin: 10px 0;
+            color: #FFD166;
+        }
+        .profile p {
+            margin: 5px 0 20px;
+            color: #E7E7E7;
+        }
+        .buttons a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+            padding: 15px 20px;
+            text-decoration: none;
+            color: #1C1C1C;
+            border-radius: 5px;
+            text-align: center;
+            transition: background 0.3s;
+            font-size: 16px;
+        }
+        .buttons a img {
+            margin-right: 10px;
+            width: 24px;
+            height: 24px;
+        }
+        .buttons a.vcf {
+            background: #FFD166;
+        }
+        .buttons a.linkedin {
+            background: #5451FF;
+            color: #E7E7E7;
+        }
+        .buttons a.calendly {
+            background: #EC9DED;
+        }
+        .buttons a.encrypted {
+            background: #E7E7E7;
+            color: #1C1C1C;
+        }
+        .buttons a:hover {
+            opacity: 0.8;
+        }
+        .logo img {
+            width: 50%;
+            margin-bottom: 20px;
+        }
+        .interests {
+            font-size: smaller;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<div class="profile">
+    <div class="logo">
+        <img src="https://raw.githubusercontent.com/simplicitesoftware/resources/master/public/logo_simplicite/standard/logo-white.svg" alt="Brand Logo">
+    </div>
+    <img src="profile.png" class="profilepic" alt="Profile Picture">
+    <h1>Simon Campano</h1>
+    <p>Product Manager / Solutions Engineer</p>
+    <p class="interests">Interests: Product, Code, UX, Mountaineering</p>
+    
+    <div class="buttons">
+        <a href="contact.vcf" download class="vcf">
+            <img src="icons/vcf-icon.svg" alt="VCF Icon"> Download contact (.vcf)
+        </a>
+        <a href="https://www.linkedin.com/in/scampano" target="_blank" class="linkedin">
+            <img src="icons/linkedin-icon.svg" alt="LinkedIn Icon"> Connect on LinkedIn
+        </a>
+        <a href="https://calendly.com/scampano" target="_blank" class="calendly">
+            <img src="icons/calendar-icon.svg" alt="Calendly Icon"> Book a Meeting with Calendly
+        </a>
+        <a href="https://keys.openpgp.org/search?q=scampano%40simplicite.fr" target="_blank" class="encrypted">
+            <img src="icons/key-icon.svg" alt="Encrypted Icon"> Communicate super-duper securely with PGP
+        </a>
+    </div>
+</div>
+
+</body>
+</html>

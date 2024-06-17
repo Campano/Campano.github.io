@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Simon CAMPANO
+N:CAMPANO;Simon;;;
+item1.EMAIL;TYPE=INTERNET:scampano@simplicite.fr
+item1.X-ABLabel:
+item2.TEL:+33 6 70 36 94 10
+item2.X-ABLabel:
+item3.TEL:+34 722 47 05 14
+item3.X-ABLabel:
+item4.ORG:Simplicité Software
+item4.X-ABLabel:
+item5.TITLE:Product Manager / Solutions Engineer
+END:VCARD
